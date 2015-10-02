@@ -1,0 +1,20 @@
+{
+  "name": "light-level-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack",
+    "server": "hs ."
+  },
+  "author": "theverything (Jeffrey Horn)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "http-server": "^0.8.5",
+    "react": "^0.13.3",
+    "webpack": "^1.12.2"
+  }
+}
