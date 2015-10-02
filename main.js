@@ -37,7 +37,7 @@ var Progress = React.createClass({
   render() {
     return (
       <div style={{width: '100%', border: 'solid #666 1px'}}>
-        <div style={{height: 20, backgroundColor: 'Yellow', width: this.props.progress}}/>
+        <div style={{height: 20, backgroundColor: 'Yellow', width: `${this.props.progress}%`}}/>
       </div>
     );
   }

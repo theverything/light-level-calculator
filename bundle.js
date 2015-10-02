@@ -85,7 +85,7 @@
 	    return React.createElement(
 	      'div',
 	      { style: { width: '100%', border: 'solid #666 1px' } },
-	      React.createElement('div', { style: { height: 20, backgroundColor: 'Yellow', width: this.props.progress } })
+	      React.createElement('div', { style: { height: 20, backgroundColor: 'Yellow', width: this.props.progress + '%' } })
 	    );
 	  }
 	});
