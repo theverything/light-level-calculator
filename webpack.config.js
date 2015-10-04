@@ -19,6 +19,7 @@ module.exports = {
     noParse: /\.min\.js/
   },
   externals: {
-    "react": "React"
+    "react": "React",
+    "react-dom": "ReactDOM"
   }
 };
