@@ -2,7 +2,7 @@ const {Component} = require('react');
 const ReactDOM = require('react-dom');
 
 const types = [
-  {name: 'yoyo', weight: 0.12},
+  {name: 'primary', weight: 0.12},
   {name: 'special', weight: 0.12},
   {name: 'heavy', weight: 0.12},
   {name: 'ghost', weight: 0.08},

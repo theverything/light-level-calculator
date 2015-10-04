@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
+    "build": "NODE_ENV=production webpack",
     "start": "webpack-dev-server --progress --colors --inline"
   },
   "author": "theverything (Jeffrey Horn)",
